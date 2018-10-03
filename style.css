@@ -1,0 +1,121 @@
+body{
+  background-color: #FCDB9E;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0px;
+}
+h1{
+  font-family: 'Anton', sans-serif;
+  Letter-spacing : 3px;
+}
+h2{
+  font-weight: 500;
+}
+p,a{
+  font-weight: 300;
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  width: 300px;
+}
+i{
+  font-weight: bold;
+  font-size: 20px;
+  display: default;
+}
+ul{
+  padding: 0px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 5%;
+  color: rgb(210, 210, 210);
+}
+li:hover{
+  color: rgb(170, 170, 170);
+}
+td{
+  padding: 0 5%;
+  border: solid 10px white;
+}
+
+#contenu div{
+  background-color: white;
+  width: 60%;
+  margin: 20px auto;
+  padding: 50px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+#menu li{
+  display: block;
+  padding: 20px;
+}
+
+#pp{
+  width: 150px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+}
+#bouton{
+  color: #EDEDED;
+  background-color: black;
+  padding: 12px;
+}
+#bouton:hover{
+  background-color: #F08236;
+  /* color: black; */
+}
+#languages{
+  color: rgb(190,190,190);
+}
+#languages:hover{
+  color: black;
+}
+#menu{
+  position: fixed;
+  background-color: black;
+  width: auto;
+  height: 100vh;
+  margin-top: -20px;
+  right: 0px;
+}
+#contenu{
+  width: 100%;
+}
+
+#fst_cat{
+  background-image: url("images/IMG_8192-2.jpg");
+}
+#snd_cat{
+  background-image: url("images/IMG_3066-2.jpg");
+}
+#trd_cat{
+  background-image: url("images/IMG_6137-2.jpg");
+}
+#fth_cat{
+  background-image: url("images/IMG_0256.jpg");
+}
+
+.categories{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all .5s;
+}
+.explications{
+  opacity: 0;
+}
+.categories:hover .explications{
+  opacity: 1;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.img-circle{
+  border-radius:50%;
+}
+.border-radius{
+  border-radius: 5px;
+}
+.text-center{
+  text-align: center;
+}
